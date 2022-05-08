@@ -199,7 +199,7 @@ if $doinstall; then
 
 	echo "* Done. "
 	echo "	"
-	echo "* Add these to your profile environment by inputing these commands in the current shell and not manually editing \".[shell]profile\". "
+	echo "* Add these to your profile environment by inputing these commands in your \".[shell]profile\". "
 	echo " "
 	echo "PLAN9=$PLAN9; export PLAN9"
 	echo 'PATH=$PATH:$PLAN9/bin; export PATH'
